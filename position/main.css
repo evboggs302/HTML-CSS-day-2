@@ -15,3 +15,31 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.inner {
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: goldenrod;
+  border-radius: 50%;
+}
+
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
